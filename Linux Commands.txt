@@ -1,0 +1,62 @@
+
+Introduction:
+ctrl + alt + t  --> open terminal
+
+man commandName --> show command describtion
+
+clear --> clean the terminal
+
+exit --> close the terminal
+
+
+Display:
+ls --> show all files in the current directory
+
+pwd  --> show current directory (Print Working Directory)
+
+
+Navigation:
+cd --> navigate to other directory (Change Directory)
+
+cd .. --> back to previous directory
+
+cd / --> navigate to root directory (Same C directory in windows)
+
+
+Files:
+xdg-open fileName --> open file
+
+cp fileName newFileName --> copy and pest existing file with new name
+
+cp fileName /home/moayad/Downloads --> copy to downloads folder
+
+rm fileName --> remove the file
+
+
+Folders/Directories:
+mkdir folderName --> create new folder
+
+rmdir folderName --> remove the folder
+
+rm -r folderName --> remove none empty folder
+
+
+Programs:
+pkill programName --> close the program
+
+intellij-idea-community --> run Intellij
+
+gedit --> run Text Editor
+
+
+Coding:
+javac filename.java --> compile java file
+
+java filename --> run java file
+
+gcc -o test hello.c --> compile C program
+
+g++ -o test add.cpp --> compile C++ program
+
+./test --> run the program
+
