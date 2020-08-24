@@ -6,8 +6,8 @@ db = mysql.connector.connect(
 cursor = db.cursor()
 
 
-def LocalSimilarityContinuous(userBloodPressure, bloodPressure, range):
-    sum = 1 - abs((userBloodPressure - bloodPressure)) / range
+def LocalSimilarityContinuous(userInput, retrievedData, range):
+    sum = 1 - abs((userInput - retrievedData)) / range
     return sum
 
 
